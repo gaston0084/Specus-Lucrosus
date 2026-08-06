@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Specus Lucrosus</title>
+
   <style>
     body {
       margin: 0;
@@ -45,6 +46,7 @@
       grid-template-columns: repeat(4, 1fr);
       gap: 20px;
       padding: 40px 30px;
+      justify-items: center;
     }
 
     .gallery-item {
@@ -54,14 +56,14 @@
     .gallery-item img {
       width: 100%;
       max-width: 220px;
-      height: 160px;
+      height: 220px;
       object-fit: cover;
       border: 2px solid #8b0000;
       background-color: #111;
     }
 
     .gallery-item h2 {
-      margin: 15px 0 0;
+      margin-top: 15px;
       font-size: 1rem;
       color: #ffdddd;
       text-transform: uppercase;
@@ -79,38 +81,48 @@
         flex-direction: column;
         align-items: flex-start;
       }
+
       .header .logo {
         margin-top: 15px;
       }
+
       .bottom-gallery {
         grid-template-columns: 1fr;
       }
     }
   </style>
 </head>
+
 <body>
+
   <header class="header">
     <h1>SPECUS LUCROSUS</h1>
     <div class="logo">LOGO ICI</div>
   </header>
 
   <section class="bottom-gallery">
+
     <div class="gallery-item">
-      <img src="" alt="Le requin mesquin">
-      <h2>le requin mesquin</h2>
+      <img src="Image (4).jpg" alt="Le requin mesquin">
+      <h2>Le requin mesquin</h2>
     </div>
+
     <div class="gallery-item">
-      <img src="" alt="Le guépard flemmard">
-      <h2>le guépard flemmard</h2>
+      <img src="Guepard.jpg" alt="Le guépard flemmard">
+      <h2>Le guépard flemmard</h2>
     </div>
-    <div class="Guepard">
-      <img src="" alt="Le dromadaire patibulaire">
-      <h2>le dromadaire patibulaire</h2>
-    </div>
+
     <div class="gallery-item">
-      <img src="" alt="Le raton-laveur râleur">
-      <h2>le taton-laveur raleur</h2>
+      <img src="Dromadair.jpg" alt="Le dromadaire patibulaire">
+      <h2>Le dromadaire patibulaire</h2>
     </div>
+
+    <div class="gallery-item">
+      <img src="Raton-Laveur.jpg" alt="Le raton-laveur râleur">
+      <h2>Le raton-laveur râleur</h2>
+    </div>
+
   </section>
+
 </body>
 </html>
