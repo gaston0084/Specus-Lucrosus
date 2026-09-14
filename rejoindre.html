@@ -110,7 +110,7 @@
     <br>
 
     <button id="leaveBtn" class="leave-button" onclick="quitterMembre()">Je quitte Specus Lucrosus</button>
-    <p id="leaveNote" class="leave-note">(parce que je suis un traître, que je suis tout simplement méchant, que je trompe tout le monde, que je ne sais pas ce qui est bon pour moi et que si je me cogne le petit orteil, je l'aurai bien mérité !)</p>
+    <p id="leaveNote" class="leave-note">(Parce que je suis un traître, que je suis tout simplement méchant, que je trompe tout le monde, que je ne sais pas ce qui est bon pour moi et que si je me cogne le petit orteil, je l'aurai bien mérité !)</p>
   </section>
 
   <script>
@@ -133,7 +133,7 @@
       if (localStorage.getItem('specusMembre') === 'true') {
         joinBtn.disabled = true;
         joinBtn.textContent = 'Tu es déjà membre !';
-        msg.textContent = 'Bienvenue dans la confrérie de Specus Lucrosus.';
+        msg.textContent = 'Bienvenue dans la confrérie de Specus Lucrosus!';
         leaveBtn.style.display = 'inline-block';
         leaveNote.style.display = 'block';
       } else {
